@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    background: #1B1B1B;
+}
+
+header {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    height: 60px;
+    background: #1B1B1B;
+}
+.left img{
+    width: 130px;
+    height: 45px;
+}
+.center {
+    display: flex;
+    gap: 15px;
+}
+.center a{
+    color: red;
+    text-decoration: none;
+}
+.right a{
+    color: #fff;
+    text-decoration: none;
+}
+.block-one {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    color: #fff;
+}
+.left-side {
+    margin-top: 110px;
+}
+.left-side h1 {
+    width: 300px;
+    font-family: 'STIX Two Text', serif;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+b{
+    color: #DA4533;
+    font-size: 38px;
+}
+.gr {
+    color: #8A8A8A;
+    font-family: 'Montserrat', sans-serif;
+}
+.t {
+    margin-bottom: 20px;
+}
+.left-buttons {
+    display: flex;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.one-btn {
+    width: 199px;
+    background: #DA4533;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+}
+.two-btn{
+    background: none;
+    border: 1px solid #DA4533;
+    width: 115px;
+    color: #DA4533;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 50%;
+}
+.two-btn::after{
+    content: '';
+    background: url('../img/strelka.png')no-repeat;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 412px;
+}
+.block-two {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    color: #fff;
+}
+.gry {
+    color: gray;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.wrapper-2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.box {
+    width: 340px;
+    height: 120px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #DA4533;
+    margin: 10px 0;
+    font-family: 'STIX Two Text', serif;
+}
+.box p {
+    margin-top: 16px;
+}
+.wrapper3 h1 {
+    margin-top: 60px;
+}
+.wrapper-3 {
+    display: flex;
+    gap: 10px;
+    margin-top: 35px;
+    padding-bottom: 90px;
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+}
+.box2 img{
+    opacity: 50%;
+}
